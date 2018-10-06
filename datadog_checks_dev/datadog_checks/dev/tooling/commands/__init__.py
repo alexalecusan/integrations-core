@@ -7,10 +7,11 @@ from .create import create
 from .dep import dep
 from .manifest import manifest
 from .meta import meta
+from .metadata import metadata
 from .release import release
 from .run import run
+from .start import start
 from .test import test
-from .metadata import metadata
 
 ALL_COMMANDS = (
     clean,
@@ -22,5 +23,6 @@ ALL_COMMANDS = (
     metadata,
     release,
     run,
+    start,
     test,
 )
